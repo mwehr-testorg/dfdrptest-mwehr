@@ -8,3 +8,6 @@ string mysqlConnection = "hostname=mwehr-databasetest.mysql.database.azure.com;p
 string postGresqlConnection = "export PGHOST=mwehr-postgrestest.postgres.database.azure.com;export PGUSER=mwehrenberg;export PGPORT=5432;export PGDATABASE=postgres;export PGPASSWORD=Pass123!";
 
 string sqlServerConnection = "Server=tcp:mwehr-sqlservertest.database.windows.net,1433;Initial Catalog=mwehr-sqlserverdb;Persist Security Info=False;User ID=CloudSA0011b426;Password=Password123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
+string awsRdsSecret = "\"username\":\"postgres\",\"password\":\"!*R_p>*j.8#5s(|w+aLFZkIRx$A|\"";
+
